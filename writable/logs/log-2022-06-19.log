@@ -1,0 +1,126 @@
+CRITICAL - 2022-06-19 00:28:05 --> Undefined variable $news_item
+in APPPATH\Views\news\view.php on line 11.
+ 1 APPPATH\Views\news\view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news_item', 'APPPATH\\Views\\news\\view.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\news\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('news/view', [], true)
+ 5 APPPATH\Controllers\News.php(37): view('news/view')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->view('dfd')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 00:34:27 --> Undefined variable $news_item
+in APPPATH\Views\news\edit.php on line 12.
+ 1 APPPATH\Views\news\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news_item', 'APPPATH\\Views\\news\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\news\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('news/edit', [], true)
+ 5 APPPATH\Controllers\News.php(92): view('news/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->edit('dfd')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 00:37:46 --> Call to a member function isValid() on null
+in APPPATH\Controllers\News.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->update('10')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 00:46:14 --> Call to a member function isValid() on null
+in APPPATH\Controllers\News.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->update('10')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 00:53:37 --> unlink(asstes/image_name.jpg): No such file or directory
+in APPPATH\Controllers\News.php on line 141.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(asstes/image_name.jpg): No such file or directory', 'APPPATH\\Controllers\\News.php', 141)
+ 2 APPPATH\Controllers\News.php(141): unlink('asstes/image_name.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->delete('10')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 01:04:56 --> unlink(): http does not allow unlinking
+in APPPATH\Controllers\News.php on line 147.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http does not allow unlinking', 'APPPATH\\Controllers\\News.php', 147)
+ 2 APPPATH\Controllers\News.php(147): unlink('http://localhost:8080/asstes1655617640_4d39902cd1c157a6b59a.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->delete('10')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 01:15:26 --> unlink(/asstes1655617640_4d39902cd1c157a6b59a.jpg): No such file or directory
+in APPPATH\Controllers\News.php on line 147.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/asstes1655617640_4d39902cd1c157a6b59a.jpg): No such file or directory', 'APPPATH\\Controllers\\News.php', 147)
+ 2 APPPATH\Controllers\News.php(147): unlink('/asstes1655617640_4d39902cd1c157a6b59a.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->delete('10')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 01:15:43 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\News.php(150): CodeIgniter\BaseModel->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->delete('10')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 01:16:34 --> unlink(asstes/1655617640_4d39902cd1c157a6b59a.jpg): No such file or directory
+in APPPATH\Controllers\News.php on line 147.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(asstes/1655617640_4d39902cd1c157a6b59a.jpg): No such file or directory', 'APPPATH\\Controllers\\News.php', 147)
+ 2 APPPATH\Controllers\News.php(147): unlink('asstes/1655617640_4d39902cd1c157a6b59a.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->delete('10')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 01:17:16 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\News.php(150): CodeIgniter\BaseModel->delete()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->delete('11')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 01:19:02 --> Undefined variable $newName
+in APPPATH\Controllers\News.php on line 120.
+ 1 APPPATH\Controllers\News.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'APPPATH\\Controllers\\News.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->update('13')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 01:20:24 --> Undefined variable $newName
+in APPPATH\Controllers\News.php on line 120.
+ 1 APPPATH\Controllers\News.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'APPPATH\\Controllers\\News.php', 120)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->update('13')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 01:21:15 --> Undefined variable $newName
+in APPPATH\Controllers\News.php on line 115.
+ 1 APPPATH\Controllers\News.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'APPPATH\\Controllers\\News.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->update('13')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 01:21:25 --> Undefined variable $newName
+in APPPATH\Controllers\News.php on line 115.
+ 1 APPPATH\Controllers\News.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'APPPATH\\Controllers\\News.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->update('13')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
