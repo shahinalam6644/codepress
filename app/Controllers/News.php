@@ -14,6 +14,8 @@ class News extends BaseController
 				'title' => 'News archive',
 			];
 
+             
+
 			return view('templates/header', $data)
 				. view('news/index')
 				. view('templates/footer');
@@ -156,6 +158,25 @@ class News extends BaseController
 		return redirect()->route('news'); 
     }
     
+    public function search() {
+        $title = $this->request->getPost('search');
+
+        $db = \Config\Database::connect();
+        $db = db_connect();
+        $query = $db->query('SELECT * FROM news WHERE title LIKE "%'.$title.'%"');         
+       
+        $data = [
+            'news'  => $query->getResult('array'),
+            'title' => 'Search',
+        ];
+
+        // var_dump($data);
+        // exit;
+
+        return view('templates/header', $data)
+            . view('news/search')
+            . view('templates/footer');
+    }
     
     
 }

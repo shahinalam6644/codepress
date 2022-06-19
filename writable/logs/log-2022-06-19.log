@@ -124,3 +124,200 @@ in APPPATH\Controllers\News.php on line 115.
  4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:43:15 --> Call to undefined method App\Models\NewsModel::user_search
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\News.php(164): CodeIgniter\Model->__call('user_search', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:43:31 --> Call to undefined method App\Models\NewsModel::user_search
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\News.php(164): CodeIgniter\Model->__call('user_search', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:43:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::like()
+in APPPATH\Models\NewsModel.php on line 25.
+ 1 APPPATH\Controllers\News.php(164): App\Models\NewsModel->news_search('ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:44:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::like()
+in APPPATH\Models\NewsModel.php on line 25.
+ 1 APPPATH\Controllers\News.php(164): App\Models\NewsModel->news_search('dsfgdg')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:45:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::like()
+in APPPATH\Models\NewsModel.php on line 25.
+ 1 APPPATH\Controllers\News.php(164): App\Models\NewsModel->news_search('dsfgdg')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:46:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::like()
+in APPPATH\Models\NewsModel.php on line 25.
+ 1 APPPATH\Controllers\News.php(162): App\Models\NewsModel->news_search('dsfgdg')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:47:05 --> Call to undefined method App\Models\NewsModel::or_like
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\NewsModel.php(26): CodeIgniter\Model->__call('or_like', [...])
+ 2 APPPATH\Controllers\News.php(162): App\Models\NewsModel->news_search('dsfgdg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:47:12 --> Call to undefined method App\Models\NewsModel::or_like
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\NewsModel.php(26): CodeIgniter\Model->__call('or_like', [...])
+ 2 APPPATH\Controllers\News.php(162): App\Models\NewsModel->news_search('sdfsdfdfffffffffffffffff')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:53:18 --> Undefined constant "App\Controllers\sdfsdfdfffffffffffffffff"
+in APPPATH\Controllers\News.php on line 163.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:54:25 --> Undefined constant "App\Controllers\sdfsdfdfffffffffffffffff"
+in APPPATH\Controllers\News.php on line 163.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:56:14 --> Undefined constant "App\Controllers\sdfsdfdfffffffffffffffff"
+in APPPATH\Controllers\News.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:57:00 --> Undefined constant "App\Controllers\sdfsdfdfffffffffffffffff"
+in APPPATH\Controllers\News.php on line 163.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:58:20 --> Undefined constant "App\Controllers\sdfsdfdfffffffffffffffff"
+in APPPATH\Controllers\News.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 03:58:39 --> Undefined constant "App\Controllers\sdfsdfdfffffffffffffffff"
+in APPPATH\Controllers\News.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 04:11:52 --> Undefined property: stdClass::$name
+in APPPATH\Controllers\News.php on line 168.
+ 1 APPPATH\Controllers\News.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'APPPATH\\Controllers\\News.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 04:13:22 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\xampp\htdocs\codepress\app\Controllers\News.php on line 176
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\News.php(176): view('templates/header', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 04:13:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\news\search.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('news/search', [], true)
+ 4 APPPATH\Controllers\News.php(177): view('news/search')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 04:19:10 --> Cannot use object of type stdClass as array
+in APPPATH\Views\news\search.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('news/search', [], true)
+ 4 APPPATH\Controllers\News.php(184): view('news/search')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-19 04:19:16 --> Cannot use object of type stdClass as array
+in APPPATH\Views\news\search.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('news/search', [], true)
+ 4 APPPATH\Controllers\News.php(184): view('news/search')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-19 04:26:04 --> Unknown column 'ert' in 'where clause'
+CRITICAL - 2022-06-19 04:26:04 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\News.php on line 169.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-19 04:26:34 --> Unknown column 'ert' in 'where clause'
+CRITICAL - 2022-06-19 04:26:34 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\News.php on line 171.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-19 04:26:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-06-19 04:26:38 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\News.php on line 171.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-19 04:26:46 --> Unknown column 'ert' in 'where clause'
+CRITICAL - 2022-06-19 04:26:46 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\News.php on line 171.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-19 04:27:36 --> Unknown column 'ert' in 'where clause'
+CRITICAL - 2022-06-19 04:27:36 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\News.php on line 170.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->search()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
