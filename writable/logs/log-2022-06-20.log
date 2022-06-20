@@ -1,0 +1,175 @@
+CRITICAL - 2022-06-20 00:11:02 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 182.
+ 1 APPPATH\Controllers\News.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:11:04 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 182.
+ 1 APPPATH\Controllers\News.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:11:12 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 182.
+ 1 APPPATH\Controllers\News.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:13:15 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 182.
+ 1 APPPATH\Controllers\News.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:13:16 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 182.
+ 1 APPPATH\Controllers\News.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:13:16 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 182.
+ 1 APPPATH\Controllers\News.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:13:16 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 182.
+ 1 APPPATH\Controllers\News.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:13:17 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 182.
+ 1 APPPATH\Controllers\News.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:13:29 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 182.
+ 1 APPPATH\Controllers\News.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:13:54 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 182.
+ 1 APPPATH\Controllers\News.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:13:58 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 182.
+ 1 APPPATH\Controllers\News.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:14:38 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 182.
+ 1 APPPATH\Controllers\News.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:15:01 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 183.
+ 1 APPPATH\Controllers\News.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 183)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:15:06 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 183.
+ 1 APPPATH\Controllers\News.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 183)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:28:43 --> Undefined property: App\Controllers\News::$uri
+in APPPATH\Controllers\News.php on line 187.
+ 1 APPPATH\Controllers\News.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$uri', 'APPPATH\\Controllers\\News.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:28:50 --> Undefined property: App\Controllers\News::$uri
+in APPPATH\Controllers\News.php on line 187.
+ 1 APPPATH\Controllers\News.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$uri', 'APPPATH\\Controllers\\News.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:29:25 --> Too few arguments to function App\Controllers\News::dosearch(), 0 passed in D:\xampp\htdocs\codepress\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\News.php on line 181.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:33:00 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 187.
+ 1 APPPATH\Controllers\News.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:33:11 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 187.
+ 1 APPPATH\Controllers\News.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:33:12 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 187.
+ 1 APPPATH\Controllers\News.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-20 00:33:16 --> Undefined property: App\Controllers\News::$input
+in APPPATH\Controllers\News.php on line 187.
+ 1 APPPATH\Controllers\News.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\News::$input', 'APPPATH\\Controllers\\News.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-20 00:40:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.$params_new."%"' at line 1
+CRITICAL - 2022-06-20 00:40:15 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\News.php on line 194.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\News->dosearch()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

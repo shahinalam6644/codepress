@@ -1,7 +1,6 @@
 <form action="/news/search" method="post"> 
 <?= csrf_field() ?> 
-    <input type="input" name="search" /><br /> 
-    <input type="submit" value="Search" />
+    <input type="input" name="search" /><input type="submit" value="Search" />
 </form>
 <h2><a href="/news/create">Create data</a></h2>
 <table style="width:100%">
@@ -25,4 +24,19 @@
 		<p>Unable to find any news for you.</p>
 	<?php endif ?>
 </table>
+<br/>
+<br/>
+<br/>
 
+
+<form action="<?php echo site_url('news/dosearch'); ?>" method="get">  
+    <input type="input" name="q" /><input type="submit" value="Search" />
+</form>
+
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>

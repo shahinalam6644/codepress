@@ -37,6 +37,8 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+$routes->get('news/dosearch', 'News::dosearch');
+
 $routes->get('news/edit/(:segment)', 'News::edit/$1');
 $routes->post('news/update/(:num)', 'News::update/$1');
 $routes->get('news/delete/(:num)', 'News::delete/$1');
@@ -50,6 +52,7 @@ $routes->get('(:any)', 'Pages::view/$1');
 
 
 $routes->post('news/search', 'News::search');
+
 
 /*
  * --------------------------------------------------------------------

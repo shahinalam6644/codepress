@@ -178,5 +178,29 @@ class News extends BaseController
             . view('templates/footer');
     }
     
+    public function dosearch() {
+        $currentURL = current_url(); //http://myhost/main
+        $params   = $_SERVER['QUERY_STRING']; //my_id=1,3
+        $fullURL = $currentURL . '?' . $params; 
+        //echo $fullURL;   //http://myhost/main?my_id=1,3   
+        
+        $params_new = trim($params,"q="); 
+
+        $db = \Config\Database::connect();
+        $db = db_connect();
+        $query = $db->query('SELECT * FROM news WHERE title LIKE "%'.$params_new.'%"');         
+       
+        $data = [
+            'news'  => $query->getResult('array'),
+            'title' => 'Search',
+        ];
+
+        // var_dump($data);
+        // exit;
+
+        return view('templates/header', $data)
+            . view('news/search')
+            . view('templates/footer');
+    }
     
 }
