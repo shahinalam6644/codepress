@@ -188,8 +188,9 @@ class News extends BaseController
 
         $db = \Config\Database::connect();
         $db = db_connect();
-        $query = $db->query('SELECT * FROM news WHERE title LIKE "%'.$params_new.'%"');         
-       
+        $query = $db->query('SELECT * FROM news WHERE title LIKE "%'.$params_new.'%"');  
+        
+
         $data = [
             'news'  => $query->getResult('array'),
             'title' => 'Search',

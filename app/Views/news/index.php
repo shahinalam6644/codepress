@@ -30,7 +30,7 @@
 
 
 <form action="<?php echo site_url('news/dosearch'); ?>" method="get">  
-    <input type="input" name="q" /><input type="submit" value="Search" />
+    <input type="input" name="q" required/><input type="submit" value="Search" />
 </form>
 
 
